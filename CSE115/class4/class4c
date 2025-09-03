@@ -1,0 +1,10 @@
+import math
+
+x = 36
+result = x / 6
+print(min(result, 35))
+print(input("Enter a name: "))
+_power = pow(3, 4)
+print(math.sqrt(81))
+# num = round("18.560")
+# print(min(max(5, zero), _power))
