@@ -1,3 +1,6 @@
+# prints and inputs go in the IO lines
+# stack frames are for functinos that are defined in the LOC, NOT for native functions like print()
+
 fahrenheit = 95
 feels = "hot"
 celsius = 35
