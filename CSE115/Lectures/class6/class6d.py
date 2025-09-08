@@ -7,4 +7,16 @@ def avgOfThree():
     return average
 
 
+# test with:
+# x = 3.44
+# y = 5.6789
+# z = 1.23456789
+# result = 3.45
 avgOfThree()
+
+# test with:
+# x = 56.67
+# y = 45.19
+# z = 52.18
+# result = 51.35
+# avgOfThree()
