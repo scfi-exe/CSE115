@@ -11,15 +11,23 @@ def accuracy(throws, hits):
 
 # define a function named onlyOs that takes a string and returns the same string, but with all vowels replaced by the leter "o"
 # for the purposes of this function, you may assume that Y is not a vowel
+# def onlyOs(txt):
+#     txt = txt.replace("a", "o")
+#     txt = txt.replace("e", "o")
+#     txt = txt.replace("i", "o")
+#     txt = txt.replace("u", "o")
+#     txt = txt.replace("A", "o")
+#     txt = txt.replace("E", "o")
+#     txt = txt.replace("I", "o")
+#     txt = txt.replace("U", "o")
+#     return txt
+
+
 def onlyOs(txt):
-    txt = txt.replace("a", "o")
-    txt = txt.replace("e", "o")
-    txt = txt.replace("i", "o")
-    txt = txt.replace("u", "o")
-    txt = txt.replace("A", "o")
-    txt = txt.replace("E", "o")
-    txt = txt.replace("I", "o")
-    txt = txt.replace("U", "o")
+    vowels = "aeiouAEIOU"
+    for v in vowels:
+        if v in txt:
+            txt.replace(v, "o")
     return txt
 
 
