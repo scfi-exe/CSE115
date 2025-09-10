@@ -16,9 +16,14 @@ def onlyOs(txt):
     txt = txt.replace("e", "o")
     txt = txt.replace("i", "o")
     txt = txt.replace("u", "o")
+    txt = txt.replace("A", "o")
+    txt = txt.replace("E", "o")
+    txt = txt.replace("I", "o")
+    txt = txt.replace("U", "o")
     return txt
 
 
+print(onlyOs("Muk"))
 # print(onlyOs("caterpie")) #UAT, should return cotorpoo
 
 
