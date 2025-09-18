@@ -27,10 +27,10 @@ def pullCard(input1, input2):
 # if the infraction results in fall, give red card
 # otherwise, give yellow card
 # this is the worst fucking code i have ever seen in my life and this guy really had the nerve to write this on the whiteboard
-def pullCard(std):
-    if impact == "hit":
-        outcome = "infraction"
-    if infraction == "fall":
-        outcome = "yellow"
-    else:
-        outcome = "red"
+# def pullCard(std):
+#     if impact == "hit":
+#         outcome = "infraction"
+#     if infraction == "fall":
+#         outcome = "yellow"
+#     else:
+#         outcome = "red"
